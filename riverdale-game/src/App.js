@@ -3,6 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import CharacterCard from "./components/CharacterCard"
 import Characters from "./Characters.json"
+//  importing navBar 
+import Navbar from "./components/Navbar"
+//improting header 
+import Header from "./components/Header"
+//  importing footer 
+import Footer from "./components/Footer"
+
+
 class App extends Component {
   render() {
     return (
