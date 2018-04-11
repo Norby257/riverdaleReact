@@ -4,12 +4,11 @@ import './App.css';
 import CharacterCard from "./components/CharacterCard"
 import Characters from "./Characters.json"
 //  importing navBar 
-import Navbar from "./components/Navbar"
+// import Navbar from "./components/Navbar"
 //improting header 
-import Header from "./components/Header"
+// import Header from "./components/Header"
 //  importing footer 
-import Footer from "./components/Footer"
-
+// import Footer from "./components/Footer"
 
 class App extends Component {
   render() {
@@ -17,7 +16,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to Riverdale, the town with pep</h1>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.

@@ -1,13 +1,13 @@
-//  dependencies
-import React from "react"
-import "../styles/Header.css"
+// //  dependencies
+// import React from "react"
+// import "../styles/Header.css"
 
 
 
-//  styles component (already in navBar file)
+// //  styles component (already in navBar file)
 
-const Header = () => (
+// const Header = () => (
 
-);
+// );
 
-export default Header;
+// export default Header;

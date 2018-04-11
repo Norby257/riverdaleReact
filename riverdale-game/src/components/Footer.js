@@ -1,14 +1,14 @@
-import React from "react"
-import "../styles/Footer.css";
+// import React from "react"
+// import "../styles/Footer.css";
 
-const styles = {
+// const styles = {
 
-};
-
-
-const Footer = () => (
-
-)
+// };
 
 
-export default Footer;
+// const Footer = () => (
+
+// )
+
+
+// export default Footer;
