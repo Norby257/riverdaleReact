@@ -22,8 +22,9 @@ class App extends Component {
     //  we can either do a map function of a for loop. just to get it working, do a for loop for now
     //  with this loop, we'd have to also assign an id (so try passing i as an argument)
     //  and then we'd have to check if that image id was alredy with .clicked or .selected 
-    //  i.e. (if image[i] === .clicked ) then set score to zeor, re-start game 
+    //  i.e. (if image[i] === .clicked ) then set score to zero, re-start game 
 
+    //  shuffle the cards - shuffle react? or randomize  | consult the google 
     return (
       <div className="App">
       < NavBar />
