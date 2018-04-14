@@ -5,10 +5,10 @@ import "./Navbar.css"
 //  but keeping it static for now 
 const NavBar = () => (
   //  can adjust this boostrap one to whichever style looks best with the app
-  <nav className ="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className ="navbar-nav">
   <div>
       <ul className="navbar-nav">
-        <li>
+        <li "list-style" >
             Clicky Game
             </li>
           </ul>
