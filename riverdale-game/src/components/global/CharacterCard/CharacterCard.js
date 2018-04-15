@@ -3,7 +3,13 @@ import "./CharacterCard.css";
 
 const CharacterCard = props => (
 
-    //  we have state here 
+    <div className="card">
+        <div className="img-container">
+        <img src ={props.image} alt={props.name} />
+    </div>
+        </div>
+
+            //  we have state here 
 
     //  handleClick method here 
 
@@ -11,11 +17,8 @@ const CharacterCard = props => (
     //  and we check to see what is clicked 
 
     //  in div classname add the onClick etc 
-    <div className="card">
-        <div className="img-container">
-        <img src ={props.image} />
-    </div>
-        </div>
 );
 
 export default CharacterCard;
+
+

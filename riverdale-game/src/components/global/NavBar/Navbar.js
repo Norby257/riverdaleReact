@@ -8,7 +8,7 @@ const NavBar = () => (
   <nav className ="navbar-nav">
   <div>
       <ul className="navbar-nav">
-        <li "list-style" >
+        <li>
             Clicky Game
             </li>
           </ul>
