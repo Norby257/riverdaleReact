@@ -4,7 +4,7 @@ import CharacterCard from "./components/global/CharacterCard"
 import Characters from "./Characters.json"
 import Wrapper from "./components/global/Wrapper"
 import NavBar from "./components/global/NavBar"
-import Score from "./components/global/Score"
+// import Score from "./components/global/Score"
 import Footer from "./components/global/Footer"
 
 
@@ -16,7 +16,6 @@ class App extends Component {
     Characters
  
   }
-
 
   //  handleImageClick -
   //  when an image is clicked
@@ -52,7 +51,7 @@ class App extends Component {
 
           <p className="App-intro" />
         </header>
-        <Score />
+        {/* <Score /> */}
         <Wrapper>
           {/* const shuffledCards = handleShuffle(this.props.Characters) */}
           {this.state.Characters.map(character => (

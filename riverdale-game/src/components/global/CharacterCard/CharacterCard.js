@@ -3,17 +3,30 @@ import "./CharacterCard.css";
 
 
 class CharacterCard extends Component {
+
+    state = {
+        score: 0
+        // topScore: 0
+    };
         handleClick = () => {
             console.log("I've been clicked")
-            console.log(this.props.image)
-            console.log(this.props.id)
-        }
+            // console.log(this.props.image)
+            // console.log(this.props.id)
+            this.setState({ score: this.state.score + 1});
+            console.log(this.state.score);
+
+            if (this.state.score > 1) {
+                console.log("restart game");
+            }
+        };
+
+        
         render() {
             // let classes = this.props.id ? "character" : "character clicked"
             return (
                 <div className="card">
-                   <div className="img-container" onClick={this.handleClick}>
-                   <img src ={this.props.image} alt={this.props.name} />
+                   <div className="img-container">
+                   <img src ={this.props.image} alt={this.props.name} onClick ={this.handleClick}/>
                  </div>
                    </div>
     
