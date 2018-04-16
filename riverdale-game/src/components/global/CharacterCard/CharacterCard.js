@@ -8,6 +8,7 @@ class CharacterCard extends Component {
             console.log(this.props.id)
         }
         render() {
+            // let classes = this.props.id ? "character" : "character clicked"
             return (
                 <div className="card">
                    <div className="img-container" onClick={this.handleClick}>
