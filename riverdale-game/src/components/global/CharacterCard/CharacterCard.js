@@ -1,23 +1,28 @@
-import React from "react";
+import React, { Component } from "react";
 import "./CharacterCard.css";
 
-const CharacterCard = props => (
+class CharacterCard extends Component {
+        handleClick = () => {
+            console.log("I've been clicked")
+            console.log(this.props.image)
+            console.log(this.props.id)
+        }
+        render() {
+            return (
+                <div className="card">
+                   <div className="img-container" onClick={this.handleClick}>
+                   <img src ={this.props.image} alt={this.props.name} />
+                 </div>
+                   </div>
+    
+            )
+        }
+    }
 
-    <div className="card">
-        <div className="img-container">
-        <img src ={props.image} alt={props.name} />
-    </div>
-        </div>
-
-            //  we have state here 
-
-    //  handleClick method here 
-
-    //  then we use that render() method 
-    //  and we check to see what is clicked 
-
-    //  in div classname add the onClick etc 
-);
+        //  and then we'd have to check if that image id was alredy with .clicked or .selected (See tic tak toe game)
+    //  i.e. (if image[i] === .clicked ) then set score to zero, re-start game  - this can be handled with a ternary operator 
+    //  set state to empty 
+    //  when clicked update state - className .clicked 
 
 export default CharacterCard;
 
