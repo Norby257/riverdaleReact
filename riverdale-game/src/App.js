@@ -4,16 +4,17 @@ import CharacterCard from "./components/global/CharacterCard"
 import Characters from "./Characters.json"
 import Wrapper from "./components/global/Wrapper"
 import NavBar from "./components/global/NavBar"
+import Score from "./components/global/Score"
 import Footer from "./components/global/Footer"
+
 
 class App extends Component {
   //  state goes here
   //  setting score and top score to 0 as well 
   //  Characters has to be plural 
   state = {
-    Characters,
-    score: 0,
-    topScore: 0
+    Characters
+ 
   }
 
 
@@ -51,6 +52,7 @@ class App extends Component {
 
           <p className="App-intro" />
         </header>
+        <Score />
         <Wrapper>
           {/* const shuffledCards = handleShuffle(this.props.Characters) */}
           {this.state.Characters.map(character => (

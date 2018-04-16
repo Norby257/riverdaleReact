@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./CharacterCard.css";
 
+
 class CharacterCard extends Component {
         handleClick = () => {
             console.log("I've been clicked")
