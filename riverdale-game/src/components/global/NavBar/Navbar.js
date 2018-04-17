@@ -7,11 +7,7 @@ const NavBar = () => (
   //  can adjust this boostrap one to whichever style looks best with the app
   <nav className ="navbar-nav">
   <div>
-      <ul className="navbar-nav">
-        <li>
-            Clicky Game
-            </li>
-          </ul>
+     
       </div>
   </nav>
 )

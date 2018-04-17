@@ -17,6 +17,7 @@ class CharacterCard extends Component {
 
             if (this.state.score > 1) {
                 console.log("restart game");
+                // this.setState({score: 0})
             }
         };
 

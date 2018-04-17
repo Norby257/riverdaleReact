@@ -22,8 +22,7 @@ class App extends Component {
   //  update the state of that image id to clicked
   //  then filter the array to find the images that do not have status of clicked
   //  if array item with class of .clicked is clicked, then re-set the game
-  //  shuffle the cards - shuffle react? or randomize => consult the google
-  //  pseudocode for shuffling the cards  // this might go in character component 
+  //  pseudocode for shuffling the cards  
   //  doing in app and then passing as prop(this.props.characters)
 
   // handleShuffle() {
@@ -48,8 +47,10 @@ class App extends Component {
         <NavBar />
         <header className="App-header">
           <h1 className="App-title">Welcome to Riverdale, the town with pep</h1>
+          <h2> Clicky game </h2>
 
-          <p className="App-intro" />
+          <p className="App-intro"> Click an image to earn points, but don't click on any more than once!
+          </p>
         </header>
         <Score />
         <Wrapper>
